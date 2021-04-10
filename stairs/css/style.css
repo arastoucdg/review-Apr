@@ -1,0 +1,66 @@
+* {
+    box-sizing: content-box;
+    box-sizing: border-box;
+    
+    
+}
+html {
+    
+}
+body{
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+    border: 20px solid hotpink;
+    
+}
+
+.border {
+   
+    box-sizing: content-box;
+
+    display: inline-block;
+    
+    
+}
+.uperbox{
+   
+    width: 350px;
+    height: 350px ;
+    box-sizing: border-box;
+    background-color: greenyellow;
+    margin-left: 1050px;
+    
+    }
+.midbox{
+    width: 350px;
+    height: 350px ;
+    background-color: lime ;
+    border: 15px solid gray;
+    
+    margin-left: 700px;
+    
+}
+.mid2box{
+    box-sizing: content-box;
+    margin-left: 350px;
+    width: 350px;
+    height: 350px ;
+    background-color: yellowgreen;
+
+
+}
+
+.ftbox{
+    width: 350px;
+    height: 350px ;
+    background-color: lime ;
+    border: 5px solid green;
+    
+    
+
+}
+section {
+   
+    
+}

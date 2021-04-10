@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(145, 187, 185);
+    max-width: 60%;
+    margin: 0 auto;
+
+}
+
+
+.child {
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    left: 170px;
+    bottom: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 5px solid red;
+}
+.main {
+    /* border: 5px linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2); */
+    position: absolute;
+    border: 10px solid linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+    
+    background-image: url(/image/Instagram_logo_2016.svg.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    margin-top: 60px;
+    
+    width: 200px;
+    height: 200px;
+    
+
+/* 
+.GradientBorder::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+    z-index: -1;
+  }
+  .GradientBorder::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+    z-index: -2;
+    filter: blur(40px);
+  }
+ */
